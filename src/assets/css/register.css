@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.login-template {
+  /* Desktop */
+}
+@media only screen and (max-width: 1800px) {
+  .login-template .img-wrap .login-img {
+    margin-top: 100px;
+  }
+}
+.login-template .outlet .register-page .register-form .login-account .login-link {
+  position: relative;
+  text-decoration: none;
+}
+.login-template .outlet .register-page .register-form .login-account .login-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  text-align: center;
+  background-color: #1c4ed8;
+  transition: width 0.3s linear;
+}
+.login-template .outlet .register-page .register-form .login-account .login-link:hover::after {
+  width: 100%;
+}
+@media only screen and (min-width: 1500px) {
+  .login-template .register-form {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .login-template .register-form {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}/*# sourceMappingURL=register.css.map */

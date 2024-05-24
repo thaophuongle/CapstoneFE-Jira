@@ -1,0 +1,173 @@
+.project-detail {
+    p {
+
+        font-size: 15px;
+
+        a {
+            @media screen and (max-width: 991px) {
+                padding-left: 48px;
+
+            }
+        }
+
+        span {
+            font-weight: 400;
+
+        }
+
+    }
+
+    .project-header {
+        @media screen and (max-width: 991px) {
+            padding-left: 48px;
+
+        }
+
+        h3 {}
+
+        .member {
+            margin-left: 10px;
+
+            p {
+                font-size: 15px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                padding-right: 10px;
+
+
+            }
+
+
+        }
+    }
+
+    .project-content {
+        flex-wrap: nowrap;
+
+        @media screen and (max-width: 991px) {
+            flex-wrap: wrap;
+
+        }
+
+        .project-item {
+            background-color: #f3f4f6;
+            margin: 10px;
+            border-radius: 5px;
+            padding: 10px;
+            color: #1e1f26;
+
+
+            p {
+                .title-detail {
+                    font-size: 13px;
+                    font-weight: 500;
+
+                    padding: 5px;
+                    border-radius: 5px;
+                    letter-spacing: 1px;
+
+                    @media screen and (max-width: 1200px) {
+                        font-size: 11px;
+
+                    }
+                }
+
+                .item1 {
+                    background-color: #e5e7eb;
+                }
+
+                .item2 {
+                    background-color: #c7d2fe;
+                }
+
+                .item3 {
+                    background-color: #bfdbfe;
+                }
+
+                .item4 {
+                    background-color: #a8f3d0;
+                }
+            }
+
+            .detail-info {
+
+                .task-detail {
+                    .task-detail-item {
+                        padding: 15px 10px;
+                        margin-bottom: 10px;
+                        border-radius: 10px;
+
+                        p {
+                            font-size: 14px;
+                            font-weight: 350;
+                        }
+
+                        .task-bottom {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            font-size: 14px;
+
+                            .task-left {
+                                .text-danger {}
+
+                                span {
+
+                                    font-weight: 300;
+                                    font-size: 14px;
+
+                                }
+                            }
+
+                            .task-right {}
+                        }
+                    }
+
+                }
+
+                a {
+
+                    font-size: 14px;
+
+
+                }
+
+
+
+
+
+            }
+
+
+
+        }
+    }
+
+    .modal-add-member {
+        .modal-content {
+            background: #000;
+
+            h4 {
+                color: red;
+            }
+
+            .search-member {
+                p {
+                    // CSS cho các thẻ <p> trong .search-member
+                }
+
+                .search-input {
+                    // CSS cho input trong .search-member
+                }
+            }
+        }
+    }
+
+    :where(.css-dev-only-do-not-override-1xg9z9n).ant-input-outlined:focus {
+        border-color: white !important;
+    }
+
+    :where(.css-dev-only-do-not-override-1xg9z9n).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
+        border: none;
+    }
+}

@@ -1,0 +1,18 @@
+@media screen and (max-width: 390px) {
+  .container .project-top .create-task {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container .project-top .create-task {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container .project-top .create-task {
+    font-size: 9px;
+  }
+}
+.container .table-project {
+  background: #000;
+}/*# sourceMappingURL=home.css.map */

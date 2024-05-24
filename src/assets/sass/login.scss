@@ -1,0 +1,66 @@
+@import './index.scss';
+
+.login-template {
+  .img-wrap{
+    .login-img {
+      @media only screen and (max-width: 1800px) {
+        margin-top: 100px;
+      }
+    }
+  }
+  .outlet {
+    .login-page {
+      .login-form {
+        .login-facebook {
+          .facebook-login {
+            span {
+              .facebook-button {
+                
+              }
+            }
+          }
+        }
+
+        .register-account {
+          .register-link {
+            position: relative;
+                        text-decoration: none;
+
+
+
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 0%;
+                            height: 2px;
+                            text-align: center;
+                            background-color: #1c4ed8;
+                            transition: width 0.3s linear;
+                        }
+
+                        &:hover::after {
+                            width: 100%;
+                        }
+          }
+        }
+      }
+    }
+  }
+
+  /* Desktop */
+  @media only screen and (min-width: 1500px) {
+    .login-form {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+  }
+
+  @media only screen and (min-width: 1800px) {
+    .login-form {
+      padding-left: 200px;
+      padding-right: 200px;
+    }
+  }
+}

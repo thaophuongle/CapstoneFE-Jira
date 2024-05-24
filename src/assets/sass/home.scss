@@ -1,0 +1,31 @@
+.container {
+    h2 {}
+
+    .project-top {
+
+
+        .search-project {
+            // @media screen and (max-width: 375px) {
+            //     width: 200px;
+            // }
+        }
+
+        .create-task {
+            @media screen and (max-width: 390px) {
+                font-size: 10px;
+            }
+
+            @media screen and (max-width: 375px) {
+                font-size: 11px;
+            }
+
+            @media screen and (max-width: 375px) {
+                font-size: 9px;
+            }
+        }
+    }
+
+    .table-project {
+        background: #000;
+    }
+}

@@ -1,0 +1,98 @@
+.project-detail p {
+  font-size: 15px;
+}
+@media screen and (max-width: 991px) {
+  .project-detail p a {
+    padding-left: 48px;
+  }
+}
+.project-detail p span {
+  font-weight: 400;
+}
+@media screen and (max-width: 991px) {
+  .project-detail .project-header {
+    padding-left: 48px;
+  }
+}
+.project-detail .project-header .member {
+  margin-left: 10px;
+}
+.project-detail .project-header .member p {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding-right: 10px;
+}
+.project-detail .project-content {
+  flex-wrap: nowrap;
+}
+@media screen and (max-width: 991px) {
+  .project-detail .project-content {
+    flex-wrap: wrap;
+  }
+}
+.project-detail .project-content .project-item {
+  background-color: #f3f4f6;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  color: #1e1f26;
+}
+.project-detail .project-content .project-item p .title-detail {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 5px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 1200px) {
+  .project-detail .project-content .project-item p .title-detail {
+    font-size: 11px;
+  }
+}
+.project-detail .project-content .project-item p .item1 {
+  background-color: #e5e7eb;
+}
+.project-detail .project-content .project-item p .item2 {
+  background-color: #c7d2fe;
+}
+.project-detail .project-content .project-item p .item3 {
+  background-color: #bfdbfe;
+}
+.project-detail .project-content .project-item p .item4 {
+  background-color: #a8f3d0;
+}
+.project-detail .project-content .project-item .detail-info .task-detail .task-detail-item {
+  padding: 15px 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.project-detail .project-content .project-item .detail-info .task-detail .task-detail-item p {
+  font-size: 14px;
+  font-weight: 350;
+}
+.project-detail .project-content .project-item .detail-info .task-detail .task-detail-item .task-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+.project-detail .project-content .project-item .detail-info .task-detail .task-detail-item .task-bottom .task-left span {
+  font-weight: 300;
+  font-size: 14px;
+}
+.project-detail .project-content .project-item .detail-info a {
+  font-size: 14px;
+}
+.project-detail .modal-add-member .modal-content {
+  background: #000;
+}
+.project-detail .modal-add-member .modal-content h4 {
+  color: red;
+}
+.project-detail :where(.css-dev-only-do-not-override-1xg9z9n).ant-input-outlined:focus {
+  border-color: white !important;
+}
+.project-detail :where(.css-dev-only-do-not-override-1xg9z9n).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
+  border: none;
+}/*# sourceMappingURL=projectDetail.css.map */
