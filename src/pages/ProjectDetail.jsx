@@ -339,7 +339,7 @@ const ProjectDetail = () => {
 
   console.log(arrTaskDetail.lstComment);
   const [comments, setComments] = useState(arrTaskDetail.lstComment);
-  const reversedComments = [...comments].reverse();
+  const reversedComments = comments ? [...comments].reverse() : [];
 
   useEffect(() => {
     setComments(arrTaskDetail.lstComment);
