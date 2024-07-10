@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const TokenCybersoft =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJCb290Y2FtcCA1NyIsIkhldEhhblN0cmluZyI6IjI5LzA2LzIwMjQiLCJIZXRIYW5UaW1lIjoiMTcxOTYxOTIwMDAwMCIsIm5iZiI6MTY4ODkyMjAwMCwiZXhwIjoxNzE5NzY2ODAwfQ.9MKEqdjyd8nN84l6J6hg-XfkLpmaY_aBPozV_TXxusM";
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJCb290Y2FtcCA1NyIsIkhldEhhblN0cmluZyI6IjE1LzA2LzIwMzAiLCJIZXRIYW5UaW1lIjoiMTcxODQwOTYwMDAwMCIsImlhdCI6MTcxNzY5MTc5NiwiZXhwIjoxODkwNDkxNzk2fQ.-xVWTAyxXwrWqb3rk5RFAul5x-t5qMPd2amKpjq3bkk";
 
 export const USER_LOGIN = "userLogin";
 export const TOKEN = "accessToken";
